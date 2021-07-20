@@ -10,7 +10,7 @@
     },
 
     "chrome_url_overrides" : {
-        "newtab": "main.html"
+        "newtab": "index.html"
     },
 
     "browser_action":
