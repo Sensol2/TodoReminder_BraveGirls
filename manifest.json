@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "쁘걸 TODO",
+    "version": "1.0",
+    "description": "시간과 날씨를 알려주고, 간단히 할 일을 메모할 수 있는 브레이브걸스 테마의 웹입니다!",
+    "author": "Sensol2",
+
+    "icons": {
+        "256": "logo.png"
+    },
+
+    "chrome_url_overrides" : {
+        "newtab": "main.html"
+    },
+
+    "browser_action":
+    {
+      "default_icon": "logo.png"
+    },
+
+    "permissions": ["tabs"]
+}
