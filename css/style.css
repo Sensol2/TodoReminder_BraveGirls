@@ -1,0 +1,79 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: 'Single Day', cursive;
+}
+
+.img{
+    position: relative;
+    /* background-image: url(../img/0.jpg);                                                                */
+    height: 100vh;
+    background-size: cover;
+}
+
+.img-cover{
+    display: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);                                                                 
+    z-index:1;
+ }
+ 
+#clock{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:128pt;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+#todo-form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, 250%);
+    width:600px;
+    height:42px;
+    font-size:18px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+#quote{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+	padding: 15px;
+	color: white;
+    font-size:12pt;
+    text-align: center;
+    z-index:2;
+}
+
+#author{                                                           
+    font-size:8pt;
+}
+
+#weather {
+    position: absolute;
+    right: 0%;
+	padding: 15px 15px;
+	color: white;
+    font-size:18pt;
+    text-align: right;
+    z-index:2;
+}
+
+#liveToastBtn {
+    position: absolute;
+    left: 0%;
+	padding: 15px 15px;
+	color: white;
+    font-size:18pt;
+}
